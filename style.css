@@ -1,0 +1,46 @@
+body{
+  text-align  : center;
+  
+}
+input{
+  margin-top :60px;
+  padding : 15px;
+  border-radius : 10px;
+  width : 250px;
+  margin-right : 10px;
+  
+}
+
+#addtask{
+  padding:15px;
+  border-radius: 10px;
+}
+
+#addtask:hover{
+  background-color : lightskyblue;
+}
+ul {
+    list-style-type: none;
+  margin : 20px;
+  display : grid;
+  place-items : center;
+}
+li{
+  margin : 5px;
+  font : 30px;
+  padding : 10px;
+  border : 2px solid lightskyblue;
+  width : 360px;
+  border-radius : 20px
+}
+.remove {
+  border-radius: 10px;
+  color: red;
+  background-color: white;
+  margin-left : 300px;
+  
+}
+.remove:hover{
+  background-color : Red;
+  color : Black;
+}
